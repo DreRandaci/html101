@@ -13,6 +13,10 @@ nav {
 		
 }
 
+h3 {
+	text-align: center;
+}
+
 ul {
 	list-style: none;
 	margin: 0;
@@ -34,4 +38,28 @@ a {
 a:hover {
 	color: lightgray;
 }
+
+img {
+	width: 250px;
+}
+
+table, 
+th,
+td
+{
+	border: 1px solid ghostwhite;
+}
+
+table {
+	margin: 0 auto;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
 
