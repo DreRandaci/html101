@@ -1,3 +1,5 @@
+
+/*----- main styles ------*/
 body {
 	background-color: tomato;
 	margin: 0;
@@ -6,6 +8,9 @@ body {
 nav {
 	border-bottom: 2px solid ghostwhite;
 	height: 35px;
+	display: flex-left;
+	padding-top: 2em;
+		
 }
 
 ul {
@@ -15,9 +20,18 @@ ul {
 
 li {
   display: inline;
+
 }
 
 a {
 	text-decoration: none;
+	padding: 1.5em 1em;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: ghostwhite;
+}
+
+a:hover {
+	color: lightgray;
 }
 
